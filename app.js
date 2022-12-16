@@ -199,8 +199,8 @@ var questions = [
       marks++;
     }
     if(indexNum + 1 == questions.length) {
-      alert("Your Marks is: " + marks)
-      // main.innerHTML = `YOUR MARKS is: ${marks}`
+//       alert("Your Marks is: " + marks)
+      main.innerHTML = `YOUR MARKS is: ${marks}`
     }else{
       skipQuestion();
 
